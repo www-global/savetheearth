@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+@import "../../Page 1/css/compass/css3";
+@font-face 
+{
+    font-family: Robotob;
+    src:url("../fonts/Roboto-Bold.ttf");
+    font-weight: 200;
+}
+@font-face 
+{
+    font-family: Robotot;
+    src:url("../fonts/Roboto-Thin.ttf");
+	font-weight: 300;
+}
+h3, h4, h5, h6 
+{
+    font-size:2em;
+    margin:0;
+    padding:0;
+    font-family: Robotot;
+    font-weight:normal;
+}
+
+
+.infor
+{ 
+	height: 100%;
+	background-color: white;
+}
+.logo
+{
+	animation: fadeInLeft  2s;
+	height: 150px;
+	margin-top: 30px !important ;
+	
+}
+.text1
+{
+	animation: fadeInDown  2s;
+	font-size: 13px;
+	text-align: center;
+	color:#3A5660;
+	margin-bottom: -10px;
+	
+}
+.text1a
+{
+	animation: fadeInDown  1.5s;
+	font-size: 13px;
+	text-align: center;
+	color:#3A5660;
+}
+
+.text2
+{
+	animation-delay:1s;
+	font-size: 7px;
+	height: 100px;
+	text-align:center;
+	color: #1A2529;
+	line-height: 20pt;
+	
+}
+.donate
+{
+	animation: fadeInDown  2s;
+	font-family: Robotot;
+	overflow-y:scroll;
+	height:100%;
+	background-color: white;
+	border-left: #CACACA solid 1px;
+	color:#1A2529;
+}
+
+    
+	.logo
+	{
+		width: 300px;
+		height: 169px;
+		margin: 10px auto;
+	}
+	
+    fieldset
+	{
+        border: none;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+		
+    }
+
+    label
+	{
+        font-size: 14px;
+    }
+
+    .donation-container
+	{
+        max-width: 700px;
+        margin: 50px auto;
+        padding: 35px;
+		background-color: white;
+    }
+
+    .progress-loader 
+	{ 
+        position: absolute; 
+        top: 50%; 
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%); 
+        transform-origin: center;
+        text-align: center; 
+        width: 60px; 
+        height: 60px; 
+        line-height: 60px; 
+    }
+    .honor-form, .donately-donation-form
+	{
+        position: relative;
+        background: #ffffff;
+    }
+    input[type='text']
+	{
+      line-height: normal;
+      height: auto;
+      width: auto;
+      margin: 0 0 10px 0;
+      font-size: 16px;
+      padding: 0.5em 0.5em;
+      display: block;
+      background-color: #fff;
+      color: #333;
+      position: relative;
+      border: 1px solid #ccc;
+      :focus
+		{
+        outline: none;
+        border: 1px solid #3A5660;
+      	}
+    } 
+    button
+	{
+      font-family: inherit;
+      @include appearance(none);
+      margin: 0;
+      font-size: 16px;
+      vertical-align: middle;
+      border-radius: 3px;
+      text-decoration: none;
+      color: #fff;
+      border: 1px solid transparent;
+      background: #3A5660;
+      padding: 10px 20px;
+      cursor: pointer;
+      text-transform: uppercase;
+      &:focus{
+        outline: none;
+      }
+    }
+
+    .form-half
+	{
+        width: 50%;
+        float: left;
+        height: 70px;
+    }
+
+
+.sidephoto
+{
+	height: auto;
+	width: 100%;
+	animation: fadeInUp  2s;
+	background-size: cover;
+	background-image:url("https://i.pinimg.com/originals/7f/25/1e/7f251e7813d5120085ae8106aee2b235.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.text3
+img 
+{
+	padding-top: 200%;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.line
+{
+	height: 50px;
+	/*background-color: blueviolet;*/
+}
+.buttondonatenow
+{
+  background-color: #3A5660;
+  font-family: Robotob;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 4px;
+  z-index: 10;
+  
+}
+.buttondonatenow
+{
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.buttondonatenow:hover
+{
+  background-color:#82ADA2; /* Green */
+  color: white;
+  
+}
+.button 
+	{
+		
+		background-color: #3A5660;
+		font-family: Robotob;
+		text-align: center;
+		padding: 5px 20px;		  	
+		border-radius: 4px;
+		font-size: 15px;
+		color: #FFF;
+		text-decoration: none;	
+	}
+.button
+{
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover
+{
+  background-color:#82ADA2; /* Green */
+  color: white;
+  
+}

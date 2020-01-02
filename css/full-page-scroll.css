@@ -1,0 +1,155 @@
+	
+@font-face
+{
+	font-family: Robotob;
+    src:url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face
+{
+	font-family: Robotot;
+    src:url("../fonts/Roboto-Thin.ttf");
+}
+
+
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #3A5660;
+	
+}
+
+.section1 
+	{
+	
+		background-color: white;
+		
+	}
+
+	.section2 
+	{
+		background-color: #1f2029; 
+	}
+
+	.section3 
+	{
+		background-color:  white;
+	}
+/*
+	.section4 
+	{
+		background-color:  #CC938E;
+	}
+
+	.section5 
+	{
+		background-color:  #D2C598;
+	}
+*/			
+	section div 
+	{
+		font-family: 'Open Sans';
+		font-style: normal;
+		text-align: center;
+		position: relative;
+		top: 50%;  
+		transform: translateY(-50%);
+	}
+
+	span 
+	{
+		font-size: 4em;
+		font-style: normal;
+		color: #fff;
+	}
+
+.scroll-container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.scroll-container section {
+	width: 100%;
+	height: 100%;
+}
+
+.dots {	
+	
+	
+	z-index: 10;
+	list-style: none;
+	padding: 0;
+	position: absolute;	
+   	top:50%;
+	margin-left: 85%;
+    -webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.dots li a {
+
+	padding: 20px;
+	width: 14px;
+	height: 15px;
+	display: block;
+}
+
+.dots li a:before  
+{
+	background-color: white;
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+/*	background: rgba(255, 255, 255, 0.48);*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;	
+	-webkit-transition: -webkit-transform 0.3s ease, background-color 0.3s ease;
+	-moz-transition: -moz-transform 0.3s ease, background-color 0.3s ease;
+	-ms-transition: -ms-transform 0.3s ease, background-color 0.3s ease;
+	-o-transition: -o-transform 0.3s ease, background-color 0.3s ease;
+	transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.dots li a.active:before {
+	content: '';
+	width: 14px;
+	height: 14px;
+	margin-top: -4px;
+	left: 7px; 
+	background-color: white;
+	-webkit-transform: scale(1.0);
+	-moz-transform: scale(1.0);
+	-ms-transform: scale(1.0);
+	-o-transform: scale(1.0);
+	transform: scale(1.0);
+}
+
+.dots-right {
+	right: 10px;
+	
+}
+
+.dots-left {
+	left: 10px;
+	
+}
+
+.dots li a:focus
+{
+	
+	transform: scale(0.5);
+	transition: transform 0.3s ease, background-color 0.3s ease;
+}

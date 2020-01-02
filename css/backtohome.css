@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family: Robotob;
+	src: url("../fonts/Roboto-Bold.ttf");
+}
+@font-face
+{
+	font-family: Robotot;
+	src: url("../fonts/Roboto-Thin.ttf");
+}
+@font-face
+{
+	font-family: Aquaa;
+	src:url("../fonts/aqua.ttf");
+}
+@font-face
+{
+	font-family: Rossela;
+	src:url("../fonts/Rossela.otf");
+}
+@media  screen and (max-width: 992px) 
+{
+	.logo
+	{
+	padding-top: 10%;
+	}
+	.line1
+{
+   padding-top: 30%;
+   right: 8.5%;
+   padding: 100px;
+   
+}
+	
+}
+@media screen and (max-width: 600px) /*Iphone X screen*/
+{
+	.logo
+	{
+	padding-top: 10%;
+	}
+}
+	
+
+body
+{
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+/*	background-image: url("../images/Back to Home BG 1.jpg");*/
+	
+/*	background-color: white;*/
+}
+.logo
+{
+	margin-top: 5%;
+}
+.line1
+{
+	z-index: 100;
+	margin-top: 10%;
+	margin-left: 17%;
+}
+.background
+{
+	background-color: white;
+}
+.opt1
+{
+	z-index: 100;
+	animation-delay: 0.5s;
+	font-family: Rossela;
+	height: 100px;
+	width: 200px;
+	text-align: center;
+	font-size: 40pt;
+	background-color: transparent;
+}
+.opt1
+{
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.opt1:hover
+{
+  color: #82ADA2;
+}
+.opt2
+{
+	z-index: 100;
+	animation-delay: 0.5s;
+	font-family: Rossela;
+	height: 100px;
+	width: 200px;
+	text-align: center;
+	font-size: 40pt;
+	background-color: transparent;
+}
+.opt3
+{
+	z-index: 100;
+	animation-delay: 0.5s;
+	font-family: Rossela;
+	height: 100px;
+	width: 200px;
+	text-align: center;
+	font-size: 40pt;
+	background-color: transparent;
+}
+.opt4
+{
+	z-index: 100;
+	animation-delay: 0.5s;
+	font-family: Rossela; 
+	height: 100px;
+	width: 200px;
+	text-align: center;
+	font-size: 40pt;
+	background-color: transparent;
+}
+

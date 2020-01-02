@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family: Robotob;
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face
+{
+	font-family: Robotot;
+	src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face
+{
+	font-family: Aquaa;
+	src:url(../fonts/aqua.ttf);
+}
+@font-face
+{
+	font-family: Rossela;
+	src:url("../fonts/Rossela.otf");
+}
+@media screen and (max-width: 1200px) 
+{ 
+	.line1
+	{
+	   padding-top: 30px;
+	   margin-left: 20px;
+	}
+	.opt1
+	{
+		font-size: 50pt !important
+	}
+	.opt2
+	{
+		font-size: 50pt !important
+	}
+	.opt3
+	{
+		font-size: 50pt !important
+	}
+	.opt4
+	{
+		font-size: 50pt !important
+	}
+}
+ 
+@media screen and (max-width: 992px) 
+{ 
+	.line1
+	{
+	   padding-top: 10%;
+	   right: 8.5%;
+	}
+	
+}
+@media screen and (max-width: 320px) 
+{ 
+	.line1
+	{
+	   margin-top: 10%;
+	   right: 8.5%;
+	}
+	
+}
+
+/*
+@media screen and (max-width: 600px) 
+{ 
+	  .line1
+	{
+	   padding-top: 5%;
+	   right: 8.5%;
+	   font-size: 1pt;
+	}
+	.opt1
+	{
+		font-size: 1pt;
+	}
+}
+*/
+
+	
+
+body
+{
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+/*	background-image: url("../images/earth1-01_1.mp4");*/
+/*	background-color: white;*/
+}
+
+.logo
+{
+	animation-delay: 13s;
+	margin-top: 5%;
+}
+.line1
+{
+	background-color: transparent;
+	z-index: 100;
+	margin-top: 20%;
+	margin-left: 17%;
+}
+.line2
+{
+	margin-top: 10%;
+	background-color: white;
+}
+.opt1
+{
+/*
+	margin: 20%;
+	float: left;
+*/
+	z-index: 100;
+	animation-delay: 13s;
+	font-family: Rossela;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	font-size: 40pt;
+	background-color: white;
+}
+
+.opt2
+{
+/*
+	margin: 20% -9% 20%;
+	float: left;
+*/
+	z-index: 100;
+	animation-delay: 13s;
+	font-family: Rossela;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	font-size: 40pt;
+	background-color: white;
+}
+.opt3
+{
+/*
+	margin: 20% 8% 20%;
+	float: left;
+*/
+	z-index: 100;
+	animation-delay: 13s;
+	font-family: Rossela;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	font-size: 40pt;
+	background-color: white;
+}
+.opt4
+{
+/*
+	margin: 20% 1% 20%;
+	float: left;	
+*/
+	z-index: 100;
+	animation-delay: 13s;
+	font-family: Rossela; 
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	font-size: 40pt;
+	background-color: white;
+}
+#video_background
+{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -1000;
+	overflow: hidden;
+}
+
